@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
 }
-body, h1, h2, p, ul, li, img {
+body, h1, h2, p, menu, li, img {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -29,15 +29,15 @@ header .logo {
     font-weight: bold;
 }
 
-header nav ul {
+header nav menu {
     display: flex;
 }
 
-header nav ul li {
+header nav menu li {
     margin-left: 1rem;
 }
 
-header nav ul li a {
+header nav menu li a {
     color: #fff;
     text-decoration: underline;
 }
@@ -109,7 +109,7 @@ section .text {
     text-align: left; 
 }
 
-section ul {
+section menu {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
@@ -257,17 +257,17 @@ footer {
     padding: 1rem;
 }
 
-footer nav ul {
+footer nav menu {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
 }
 
-footer nav ul li {
+footer nav menu li {
     margin-left: 1rem;
 }
 
-footer nav ul li {
+footer nav menu li {
     color: #fff;
     text-decoration: none;
 }
